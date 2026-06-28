@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/db.html
+# Allow search engines to index everything
+User-agent: *
+Allow: /
+
+# Connect to standard XML sitemap
+Sitemap: https://useshorthand.github.io/free-steno-practice/sitemap.xml
