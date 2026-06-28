@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Metadata -->
+    <title>Free Steno Practice - Online English Shorthand Transcription Evaluation Platform</title>
+    <meta name="description" content="Hone your English stenography skills with our free, offline-ready transcription platform designed specifically for SSC Stenographer Grade C (100 WPM) and Grade D (80 WPM) examinations." />
+    <meta name="keywords" content="Steno practice, shorthand transcription, SSC Stenographer, English shorthand, Kailash Chandra dictations, Progressive Magazine dictations, steno alignment, edit distance, steno error evaluation, stenography speed building" />
+    <meta name="author" content="Free Steno Practice Team" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://useshorthand.github.io/free-steno-practice/" />
+
+    <!-- Open Graph / Facebook Social Media Card -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Free Steno Practice - Online English Shorthand Transcription Platform" />
+    <meta property="og:description" content="Prepare for SSC Grade C & D exams. Upload drafts, practice typing Kailash Chandra and Progressive Magazine dictations, and analyze mistakes under real-time conditions." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=80" />
+    <meta property="og:url" content="https://useshorthand.github.io/free-steno-practice/" />
+    <meta property="og:site_name" content="Free Steno Practice" />
+
+    <!-- Twitter Card Social Media Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Free Steno Practice - Online Shorthand Typing Evaluation" />
+    <meta name="twitter:description" content="Analyze shorthand mistakes with SSC-oriented Full and Half Mistake scoring parameters. Fully managed via Google Sheets." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+    <!-- PWA Setup & Theming -->
+    <meta name="theme-color" content="#020617" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Free Steno" />
+    <link rel="apple-touch-icon" href="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=192&h=192&q=80" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✍️</text></svg>" />
+
+    <!-- Structured Metadata (Schema.org JSON-LD for Search Engines) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Free Steno Practice",
+        "alternateName": "Free English Shorthand Practice Platform",
+        "url": "https://useshorthand.github.io/free-steno-practice/",
+        "description": "An interactive, client-side shorthand transcription and error analysis application for SSC Stenographer preparation, syncing dynamically with Google Sheets CMS.",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.00",
+          "priceCurrency": "INR"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Free Steno Practice Community"
+        }
+      }
+    </script>
+
+    <!-- Google Analytics (GA4) Integration Hook -->
+    <!-- Note: Replace 'G-XXXXXXXXXX' in stenoConfig.ts. This acts as the standard client script skeleton. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // Analytics will read GA ID dynamically if available from config
+      if (typeof window !== 'undefined' && window.localStorage) {
+        const gaId = 'G-XXXXXXXXXX'; // Fallback / Admin configuration
+        gtag('config', gaId);
+      }
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

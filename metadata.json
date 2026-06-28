@@ -1,0 +1,6 @@
+{
+  "name": "Free Steno Practice",
+  "description": "A professional online English stenography practice platform for SSC Stenographer Grade C and Grade D candidates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
